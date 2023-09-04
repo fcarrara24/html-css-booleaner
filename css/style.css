@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 15vh;
+    background-color: rgb(78, 160, 255);
+}
+
+.top-container{
+    height:100%;
+    /* using the background in the other folder */
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+table{
+    background: red;
+}
+
+th{
+    width: 33vw;
+}
+td{
+    width: 33vw;
+}
