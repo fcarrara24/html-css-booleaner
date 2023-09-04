@@ -4,26 +4,121 @@
     box-sizing: border-box;
 }
 
-header{
-    height: 15vh;
-    background-color: rgb(78, 160, 255);
-}
+/* init header part */
+    header{
+        color: white;
+        height: 15vh;
+        background-color: rgb(78, 160, 255);
+    }
 
-.top-container{
-    height:100%;
-    /* using the background in the other folder */
-    background-image: url(../img/pattern.png);
-    background-repeat: repeat;
-    background-size: contain;
-}
+    .top-container{
+        height:100%;
+        /* using the background in the other folder */
+        background-image: url(../img/pattern.png);
+        background-repeat: repeat;
+        background-size: contain;
+    }
+/* end header part */
+    
+/* init main part */
+    /* init main title part */
+    main{
+        padding:0.5vh
+    }
+    .main-title{
+        font-weight: bolder;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        
+    }
+    #main-title-main{
+        font: size 30vw;
+    }
+    .title-footer{
+        color: rgb(129, 129, 129);
+    }
+    #title-footer-date{
+        font-size: 0.8em;
+        
+    }
+    #link-author{
+        text-decoration: none;
+        color:rgb(71, 183, 233);
+    }
+    /* end main title part */
+    /* init main image */
+    .main-view{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .main-view-img{
+        min-height: 53vh;
+        width: auto;
+    }
+    .view-text-description{
+        font-weight:100;
+    }
+    /* end main image */
+    /* init table part */
+    table{
+        /* separing top and bottom part  */
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
 
-table{
-    background: red;
-}
+    thead{
+        /* setting uniform color background */
+        background-color:rgb(32, 169, 229);
+    }
+    th{
+        /* calculating precise dimensions of the text in the text area */
+        width: calc(100vw/3);
+        /* font automatically bold*/
+        text-align: left;
+        color: white;
+    }
+    tbody{
 
-th{
-    width: 33vw;
+    }
+
+    .table-odd-row{
+        background-color: rgb(177, 229, 242);
+    }
+
+    td{
+    /* since th hold width no need to specify again*/
+    }
+    .highlited{
+        background-color: rgb(255, 255, 0);
+    }
+    /* end table part */
+/* end main part */
+
+/* init footer */
+footer{
+    margin-top: 3vh;
+    padding:0.5vh
 }
-td{
-    width: 33vw;
-}
+    .container-image-suggested{
+        margin-top: 1vh;
+        border-image-repeat: none;
+        height:20vh;
+        width:20vw;
+        padding: 1%;
+
+        
+    }
+    #text-suggestion{
+        color: rgb(160, 160, 160);
+    }
+    .title-image-suggested{
+        color: white;
+    }
+    #suggested-monitor{
+        
+        background-image: url(../img/monitor.jpg);
+    }
+    #suggested-graph{
+        background-image: url(../img/graph.jpg);
+    }
+    
