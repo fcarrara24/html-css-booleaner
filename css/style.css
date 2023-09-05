@@ -42,7 +42,7 @@ header{
         
     }
     #main-title-main{
-        font: size 30vw;
+        font-size: 3em;
     }
     .title-footer{
         color: rgb(129, 129, 129);
@@ -69,7 +69,7 @@ header{
         font-weight:100;
     }
     /* end main image */
-    ul{
+    .list{
         margin-top:2vh;
         margin-bottom: 2vh;
         list-style-type: disc;
@@ -79,6 +79,8 @@ header{
     }
     /* init table part */
     table{
+        /* eliminating white space between borders */
+        border-collapse: collapse;
         /* separing top and bottom part  */
         margin-top: 2vh;
         margin-bottom: 2vh;
