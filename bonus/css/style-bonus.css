@@ -1,0 +1,156 @@
+#logo{
+    display: flex;
+    transform: translate(10vw, 50%);
+    height:60%;
+    width: auto;
+}
+
+main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+footer{
+    margin-left: 10vw;
+}
+
+
+
+/* code that persists with the previous part */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* init header part */
+header{
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        height: 15vh;
+        background-color: rgb(78, 160, 255);
+        
+}
+    
+    .top-container{
+        /* using the background in the other folder */
+        background-image: url(../img/pattern.png);
+        
+        background-repeat: repeat;
+        height: 100%;
+        
+        
+    }
+    
+    /* logo position modified */
+
+/* end header part */
+    
+/* init main part */
+    /* init main title part */
+    main{
+        padding:0.5vh
+    }
+    .main-title{
+        font-weight: bolder;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        
+    }
+    #main-title-main{
+        font-size: 3em;
+    }
+    .title-footer{
+        color: rgb(129, 129, 129);
+    }
+    #title-footer-date{
+        font-size: 0.8em;
+        
+    }
+    #link-author{
+        text-decoration: none;
+        color:rgb(71, 183, 233);
+    }
+    /* end main title part */
+    /* init main image */
+    .main-view{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .main-view-img{
+        min-height: 53vh;
+        width: auto;
+    }
+    .view-text-description{
+        font-weight:100;
+    }
+    /* end main image */
+        /* list */
+        .list{
+            margin-top:2vh;
+            margin-bottom: 2vh;
+            list-style-type: disc;
+        }
+        li{
+            list-style-type: disc;
+        }
+    /* init table part */
+        table{
+            /* eliminating white space between borders */
+            border-collapse: collapse;
+            /* separing top and bottom part  */
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
+
+        thead{
+            /* setting uniform color background */
+            background-color:rgb(32, 169, 229);
+        }
+        th{
+            /* calculating precise dimensions of the text in the text area */
+            width: calc(100vw/3);
+            /* font automatically bold*/
+            text-align: left;
+            color: white;
+        }
+        .table-odd-row{
+            background-color: rgb(177, 229, 242);
+        }
+         /* end table part */
+        /* underlined text */
+    .highlited{
+        background-color: rgb(255, 255, 0);
+    }
+/* end main part */
+
+/* init footer */
+footer{
+    margin-top: 3vh;
+    padding:0.5vh
+}
+    .container-image-suggested{
+        margin-top: 1vh;
+        border-image-repeat: none;
+        height:20vh;
+        width:20vw;
+        padding: 1%;
+
+        
+    }
+    #text-suggestion{
+        color: rgb(160, 160, 160);
+    }
+    .title-image-suggested{
+        color: white;
+    }
+        /* single id suggested */
+        #suggested-monitor{
+            
+            background-image: url(../img/monitor.jpg);
+        }
+        #suggested-graph{
+            background-image: url(../img/graph.jpg);
+        }
+/* end footer */

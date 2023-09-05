@@ -69,41 +69,43 @@ header{
         font-weight:100;
     }
     /* end main image */
-    .list{
-        margin-top:2vh;
-        margin-bottom: 2vh;
-        list-style-type: disc;
-    }
-    li{
-        list-style-type: disc;
-    }
+        /* list */
+        .list{
+            margin-top:2vh;
+            margin-bottom: 2vh;
+            list-style-type: disc;
+        }
+        li{
+            list-style-type: disc;
+        }
     /* init table part */
-    table{
-        /* eliminating white space between borders */
-        border-collapse: collapse;
-        /* separing top and bottom part  */
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
+        table{
+            /* eliminating white space between borders */
+            border-collapse: collapse;
+            /* separing top and bottom part  */
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
 
-    thead{
-        /* setting uniform color background */
-        background-color:rgb(32, 169, 229);
-    }
-    th{
-        /* calculating precise dimensions of the text in the text area */
-        width: calc(100vw/3);
-        /* font automatically bold*/
-        text-align: left;
-        color: white;
-    }
-    .table-odd-row{
-        background-color: rgb(177, 229, 242);
-    }
+        thead{
+            /* setting uniform color background */
+            background-color:rgb(32, 169, 229);
+        }
+        th{
+            /* calculating precise dimensions of the text in the text area */
+            width: calc(100vw/3);
+            /* font automatically bold*/
+            text-align: left;
+            color: white;
+        }
+        .table-odd-row{
+            background-color: rgb(177, 229, 242);
+        }
+         /* end table part */
+        /* underlined text */
     .highlited{
         background-color: rgb(255, 255, 0);
     }
-    /* end table part */
 /* end main part */
 
 /* init footer */
@@ -126,11 +128,12 @@ footer{
     .title-image-suggested{
         color: white;
     }
-    #suggested-monitor{
-        
-        background-image: url(../img/monitor.jpg);
-    }
-    #suggested-graph{
-        background-image: url(../img/graph.jpg);
-    }
-    
+        /* single id suggested */
+        #suggested-monitor{
+            
+            background-image: url(../img/monitor.jpg);
+        }
+        #suggested-graph{
+            background-image: url(../img/graph.jpg);
+        }
+/* end footer */
